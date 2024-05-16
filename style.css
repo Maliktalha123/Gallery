@@ -1,0 +1,30 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    border: 2px solid;
+    width: 750px;
+    margin: 20px auto;
+}
+.previewImageDiv{
+display: flex;justify-content: center;
+height: 500px;
+}
+.previewImageDiv >img{
+    width: 95%;
+    /* margin: 1px auto; */
+}
+.smallImages{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.smallImages img{
+    width: 140px;
+    height: 110px;
+    border: 3px solid transparent
+}
