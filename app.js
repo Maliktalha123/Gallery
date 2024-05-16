@@ -7,13 +7,13 @@ for (let i =0;i<listImages.length;i++ ){
     listImages[i].addEventListener('mouseover',()=>{
         
     previewImage.src = listImages[i].src 
-    listImages[i].style.border = '3px solid black';
+    listImages[i].style.border = '3px solid white';
     
 })
 listImages[i].addEventListener('mouseout',()=>{
         
   
-    listImages[i].style.border = '3px solid transparent';
+    listImages[i].style.border = '3px solid black';
     
 })
 }
